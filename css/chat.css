@@ -1,0 +1,236 @@
+/* Centering elements */
+#center-text {          
+  display: flex;
+  flex: 1;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;  
+  height: 100%;
+}
+
+/* Chatbot circle button */
+#chat-circle {
+  position: fixed;
+  top: 50px;
+  right: 20px;
+  width: 80px;
+  height: 80px;  
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 999;
+  background-image: url('img/chatbot.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+}
+
+/* Overlay and main chat box */
+.chat-box {
+  display: none;
+  background: rgba(0, 0, 0, 0.7); /* Cockpit black background with opacity */
+  position: fixed;
+  right: 30px;
+  bottom: 50px;  
+  width: 430px;
+  max-width: 85vw;
+  max-height: 100vh;
+  border-radius: 10px;  
+  box-shadow: 0px 5px 35px 9px rgba(255, 255, 255, 0.2);
+  z-index: 999;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Chatbox toggle (Close button) */
+.chat-box-toggle {
+  float: right;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.chat-box-header {
+  background: #24292e; /* Dark cockpit-inspired header */
+  height: 70px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; 
+  color: #0494D4;
+  text-shadow: 0px 0px 10px rgb(8, 190, 240),
+              0px 0px 10px rgb(1, 11, 82);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  padding-top: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centering the text */
+  position: relative;
+}
+
+.chat-box-header .chat-box-toggle {
+  position: absolute;
+  right: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Styling for tablets */
+@media (max-width: 768px) {
+  .chat-box-header .chat-box-toggle {
+    right: 10px; /* Adjust position for tablet screens */
+  }
+}
+
+/* Styling for mobile phones */
+@media (max-width: 480px) {
+  .chat-box-header .chat-box-toggle {
+    right: -10px; /* Adjust position for mobile screens */
+  }
+}
+
+
+.chat-box-header i {
+  font-size: 24px;
+  color: #5bc0ec; /* Close button in cockpit blue */
+}
+
+/* Chat box body with cockpit background */
+.chat-box-body {
+  position: relative;  
+  height: 280px;
+  overflow-y: hidden;
+  background-image: url('https://www.shutterstock.com/image-vector/airplane-cockpit-view-panel-buttons-600nw-2331713117.jpg');
+  color: white;
+  background-size: cover; /* Ensure the image covers the window */
+  z-index: 1;
+}
+
+@media (max-width: 480px){
+  .chat-box-body {
+    height: 190px;
+    overflow-y: auto;
+  }
+
+  .chat-box-header{
+    height: 50px;
+    font-size: 24px;
+    padding-top: 3px;
+    
+  }
+  .chat-box-header i{
+    padding-top: 9px;
+  }
+}
+
+/* Overlay for cockpit theme */
+.chat-box-overlay {
+  background-image: url('img/cockpitImage.jpg');
+  opacity: 0.05; 
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#chat-input {
+  background: #333;
+  width: 100%; 
+  position: relative;
+  height: 50px;  
+  padding: 10px;
+  border: none;
+  color: #f1f1f1;
+  border-top: 1px solid #555;
+  outline: none;
+  resize: none;
+}
+
+#chat-input::placeholder {
+  color: #555;
+}
+
+.chat-submit {  
+  position: absolute;
+  bottom: 4px;
+  right: 15px;
+  background: transparent;
+  border: #333;
+  color: #52bbe8;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.chat-logs {
+  padding: 20px; 
+  height: 300px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #24292e transparent;
+}
+
+/* Scrollbar styles */
+.chat-logs::-webkit-scrollbar {
+  width: 8px;
+}
+
+.chat-logs::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.chat-logs::-webkit-scrollbar-thumb {
+  background-color: #24292e;
+  border-radius: 10px;
+}
+
+/* Chat messages */
+.chat-msg {
+  margin-bottom: 15px;
+}
+
+/* Bot messages aligned to the left */
+.chat-msg.bot {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 18px; /* Positioning bot message near the left-side pilot */
+}
+
+.chat-msg.bot .cm-msg-text {
+  background: rgba(255, 255, 255, 0.7); /* Light background for bot message */
+  color: #333; /* Dark text for contrast */
+  padding: 10px 15px;
+  border-radius: 10px;
+  max-width: 70%;
+  margin-top: 20px; /* Spacing from the top */
+  margin-left: -26px; 
+  font-weight: 600;
+}
+
+/* User messages aligned to the right */
+.chat-msg.user {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 18px; /* Aligning user messages to the right */
+}
+
+/* User message style */
+.chat-msg.user .cm-msg-text {
+  background: rgba(106, 222, 240, 0.7); /* User message background */
+  color: #1a1a1a;
+  padding: 10px 15px;
+  border-radius: 10px;
+  max-width: 70%;
+  font-weight: 600;
+}
+
+/* Message text styling */
+.cm-msg-text {
+  padding: 10px 15px;
+  color: #0494D4;
+  max-width: 75%;
+  border-radius: 10px;
+}
+
+.chat-msg.self .cm-msg-text {
+  background: #0494D4;
+  color: #1a1a1a;
+}
