@@ -430,7 +430,7 @@
     opacity: 0;
 }
 
-.project-content a {
+.project-content div {
     display: inline-block;
     padding: 20px 25px;
     background:#084A7B;
