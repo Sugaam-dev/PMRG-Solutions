@@ -89,8 +89,8 @@
 #note small {
     position: relative;
     display: inline-block;
-    animation: mymove 5s infinite;
-    animation-timing-function: all;
+    animation: mymove 13s infinite;
+    animation-timing-function:ease-in-out;
 }
 
 @keyframes mymove {

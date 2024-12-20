@@ -45,7 +45,7 @@
                 <div class="d-flex justify-content-between topbar">
                     <div class="top-info">
                         <small class="me-3 text-white-50"><a href="#"><i class="fas fa-map-marker-alt me-2" style="color: #bad8f3;"></i></a>E2-103, Sr No-296,Revell Orchid, Porwal Pune City, Pune(CB),Pune-411047</small>
-                        <small class="me-3 text-white-50"><a href="mailto:info@pmrgsolution.com"><i class="fas fa-envelope me-2" style="color: #bad8f3;"></i></a>info@pmrgsolution.com</small>
+                        <br><small class="me-3 text-white-50"><a href="mailto:info@pmrgsolution.com"><i class="fas fa-envelope me-2" style="color: #bad8f3;"></i></a>info@pmrgsolution.com</small>
                     </div>
                     <div id="note" class="d-none d-xl-flex" style="color: #bad8f3;"><small>Note : We help you to Grow your Business</small></div>
                     <div class="top-link">
@@ -71,7 +71,7 @@
 
                     <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
                         <div class="navbar-nav ms-auto mx-xl-auto p-0">
-                            <a href="index.html" class="nav-item nav-link active" style="color: #084A7B;">Home</a>
+                            <a href="index.html" class="nav-item nav-link active">Home</a>
                             <a href="about.html" class="nav-item nav-link">About</a>
                             <a href="service.html" class="nav-item nav-link">Services</a>
                             <a href="project.html" class="nav-item nav-link">Projects</a>
@@ -161,7 +161,7 @@
                 <div class="row">
                     <div class="col-lg-3 wow fadeIn" data-wow-delay=".1s">
                         <div class="d-flex counter">
-                            <h1 class="me-3 text-info counter-value">25</h1>
+                            <h1 class="me-3 text-info counter-value">20</h1>
                             <h5 class="text-white mt-1">Success in getting happy customer</h5>
                         </div>
                     </div>
@@ -174,7 +174,7 @@
                     <div class="col-lg-3 wow fadeIn" data-wow-delay=".5s">
                         <div class="d-flex counter">
                             <h1 class="me-3 text-info counter-value">55</h1>
-                            <h5 class="text-white mt-1">Total clients who love PMRG</h5>
+                            <h5 class="text-white mt-1">Total clients who love PMRG Solution</h5>
                         </div>
                     </div>
                     <div class="col-lg-3 wow fadeIn" data-wow-delay=".7s">
@@ -232,7 +232,7 @@
                                     <h4 class="mb-3">WEB DEVELOPMENT</h4>
                                     <p class="mb-4">
                                         At PMRG, we craft cutting-edge websites that blend creativity with functionality. Our team builds dynamic, user-friendly platforms that captivate users and drive engagement. Get ready to transform your ideas into vibrant digital experiences that stand out!</p>
-                                    <a href="project.html" class="btn btn-info text-white px-5 py-3 rounded-pill">Read More</a>
+                                    <a href="service.html" class="btn btn-info text-white px-5 py-3 rounded-pill">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -245,7 +245,7 @@
                                     <h4 class="mb-3">SOFTWARE SERVICES</h4>
                                     <p class="mb-4">
                                         PMRG's software services are all about innovation! We build custom, user-friendly solutions that cater to your unique needs. From seamless integration to ongoing support, our tech ensures efficiency, scalability, and a smooth user experience, driving your digital success!</p>
-                                    <a href="project.html" class="btn btn-info text-white px-5 py-3 rounded-pill">Read More</a>
+                                    <a href="service.html" class="btn btn-info text-white px-5 py-3 rounded-pill">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -259,7 +259,7 @@
                                     <p class="mb-4">
                                         
                                             At PMRG, we redefine workflows! Our process revamping dives deep into existing systems, eliminating inefficiencies and boosting productivity. We ensure smooth, agile operations aligned with your goals, setting you up for success in today’s fast-paced world.</p>
-                                    <a href="project.html" class="btn btn-info text-white px-5 py-3 rounded-pill">Read More</a>
+                                    <a href="service.html" class="btn btn-info text-white px-5 py-3 rounded-pill">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -368,6 +368,7 @@
                     </div>
                     
                     
+                    
                     <!-- <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
                         <div class="project-item">
                             <div class="project-img">
@@ -418,7 +419,12 @@
                     </div> -->
                 </div>
             </div>
+            <div class="text-center mt-4">
+                <a href="project.html" class="btn btn-info text-white px-5 py-3 rounded-pill">More Projects</a>
+            </div>
         </div>
+    
+        
         <!-- Project End -->
 
 
@@ -906,9 +912,11 @@
                             </div>
                         </div>
                         <div class="col-lg-6 wow fadeIn" data-wow-delay=".5s">
+                            <form action="https://api.web3forms.com/submit" method="POST">
+                                <input type="hidden" name="access_key" value="915fefa4-5464-45db-92f2-7b6440c1954e">
                             <div class="p-2 rounded contact-form">
                                 <div class="mb-4">
-                                    <input type="text" class="form-control border-0 py-3" placeholder="Your Name">
+                                    <input type="text" class="form-control border-0 py-3" id="firstName" name="firstName" placeholder="Your Name" required>
                                 </div>
                                 <div class="mb-4">
                                     <input type="email" class="form-control border-0 py-3" placeholder="Your Email">
@@ -920,7 +928,7 @@
                                     <textarea class="w-100 form-control border-0 py-3" rows="6" cols="10" placeholder="Message"></textarea>
                                 </div>
                                 <div class="text-start">
-                                    <button class="btn bg-info text-white py-3 px-5" type="button">Send Message</button>
+                                    <button class="btn bg-info text-white py-3 px-5" type="submit">Send Message</button>
                                 </div>
                             </div>
                         </div>
