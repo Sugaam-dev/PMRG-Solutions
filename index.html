@@ -132,6 +132,64 @@
             </div>
             <!-- Navbar End -->
             <!-- Carousel Start -->
+            <div class="container-fluid px-0">
+                <div id="carouselId" class="carousel slide" data-bs-ride="carousel" aria-label="Image Carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                    </ol>
+                    <div class="carousel-inner"> 
+                        <div class="carousel-item active">
+                            <img src="img/carousel-1.jpg" 
+                                 class="img-fluid" 
+                                 alt="Best IT Solutions from PMRG Solution" 
+                                 loading="eager" 
+                                 fetchpriority="high">
+                            <div class="carousel-caption">
+                                <div class="container carousel-content">
+                                    <h6 class="h4 animated fadeInUp" style="color: #0494D4;">Best IT Solutions</h6>
+                                    <h1 class="text-white display-1 mb-4 animated fadeInRight">It's PMRG Solution</h1>
+                                    <p class="mb-4 text-white fs-5 animated fadeInDown">Welcome to our premier IT services, where efficiency meets affordability to streamline your business operations.</p>
+                                    <a href="about.html" class="me-2" aria-label="Read more about our IT solutions">
+                                        <button type="button" class="btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read More</button>
+                                    </a>
+                                    <a href="contact.html" class="ms-2" aria-label="Contact us for IT services">
+                                        <button type="button" class="btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/carousel-2.jpg" 
+                                 class="img-fluid" 
+                                 alt="Quality Digital Services You Really Need" 
+                                 loading="lazy">
+                            <div class="carousel-caption">
+                                <div class="container carousel-content">
+                                    <h6 class="h4 animated fadeInUp" style="color: #0494D4;">Best IT Solutions</h6>
+                                    <h1 class="text-white display-1 mb-4 animated fadeInLeft">Quality Digital Services You Really Need!</h1>
+                                    <p class="mb-4 text-white fs-5 animated fadeInDown">Unlock the Power of Efficient and Cost-Effective IT Services</p>
+                                    <a href="about.html" class="me-2" aria-label="Read more about our digital services">
+                                        <button type="button" class="btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read More</button>
+                                    </a>
+                                    <a href="contact.html" class="ms-2" aria-label="Contact us for digital services">
+                                        <button type="button" class="btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev" aria-label="Previous slide">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next" aria-label="Next slide">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        
                     <!-- <div class="container-fluid px-0">
                         <div id="carouselId" class="carousel slide" data-bs-ride="carousel" aria-label="Image Carousel">
                             <ol class="carousel-indicators">
@@ -179,7 +237,7 @@
 
         
         <!-- Carousel Start -->
-                <div class="container-fluid px-0">
+                <!-- <div class="container-fluid px-0">
                     
                     <div id="carouselId" class="carousel slide" data-bs-ride="carousel" aria-label="Image Carousel">
                         <ol class="carousel-indicators">
@@ -221,7 +279,7 @@
                             <span class="visually-hidden">Next</span>
                         </button>
                     </div>
-                </div>
+                </div> -->
         <!-- Carousel End -->
 
 
@@ -1219,6 +1277,34 @@
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
         <script src="js/chat.js"></script>
+           <!-- Defer Bootstrap JS loading -->
+           <script>
+            // Mobile performance optimization
+            const isMobile = window.innerWidth <= 768;
+            
+            if (isMobile) {
+                // Disable animations on mobile for better performance
+                document.documentElement.style.setProperty('--animation-duration', '0s');
+            }
+            
+            // Async load Bootstrap JS
+            const script = document.createElement('script');
+            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js';
+            script.async = true;
+            script.onload = function() {
+                // Initialize carousel after script loads
+                const carousel = new bootstrap.Carousel(document.getElementById('carouselId'), {
+                    interval: 5000,
+                    wrap: true,
+                    touch: isMobile // Enable touch on mobile
+                });
+            };
+            document.head.appendChild(script);
+            
+            // Image preloading for performance
+            const img2 = new Image();
+            img2.src = 'img/carousel-2.jpg';
+        </script>
     </body>
 
 </html>
