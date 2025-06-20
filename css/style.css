@@ -303,6 +303,38 @@
     }
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #0494D4;
+    border-radius: 50px;
+    width: 70px;
+    height: 50px;
+    opacity: 1;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%) grayscale(100%) brightness(200%);
+    width: 25px;
+    height: 25px;
+    background-size: 100% 100%;
+}
+
+@media (max-width: 991.98px) {
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 50px;
+        height: 40px;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 20px;
+        height: 20px;
+    }
+}
+
 .page-header {
     background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
