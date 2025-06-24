@@ -309,13 +309,6 @@
     background-size: cover;
 }
 
-/* Mobile-specific background
-@media (max-width: 767.98px) {
-    .page-header {
-        background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../img/mobile_carousel2.webp) center center no-repeat;
-    }
-} */
-
 .page-header .breadcrumb-item+.breadcrumb-item::before {
     color: var(--bs-white);
 }
@@ -964,7 +957,7 @@
 }
 
 /* Reduced motion preference */
-@media (prefers-reduced-motion: reduce) {
+/* @media (prefers-reduced-motion: reduce) {
     .animated {
         animation: none !important;
     }
@@ -989,5 +982,16 @@
     .carousel-mobile {
         display: none !important;
     }
-}
+} */
 
+   /* Default background for desktop/tablet */
+   /* .page-header {
+    background: url('img/carousel-1.jpg') center center/cover no-repeat;
+} */
+
+/* Mobile-specific background */
+/* @media (max-width: 767.98px) {
+    .page-header {
+        background: url('img/mobile_carousel1.avif') center center/cover no-repeat;
+    }
+} */
