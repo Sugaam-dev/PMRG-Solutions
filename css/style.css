@@ -309,6 +309,13 @@
     background-size: cover;
 }
 
+/* Mobile-specific background
+@media (max-width: 767.98px) {
+    .page-header {
+        background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../img/mobile_carousel2.webp) center center no-repeat;
+    }
+} */
+
 .page-header .breadcrumb-item+.breadcrumb-item::before {
     color: var(--bs-white);
 }
@@ -965,3 +972,22 @@
         transition: none !important;
     }
 }
+
+@media (max-width: 767.98px) {
+    .carousel-desktop {
+        display: none !important;
+    }
+    .carousel-mobile {
+        display: block !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-desktop {
+        display: block !important;
+    }
+    .carousel-mobile {
+        display: none !important;
+    }
+}
+
