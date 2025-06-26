@@ -153,49 +153,59 @@
                     <div class="carousel-inner">
                         <!-- Slide 1 -->
                         <div class="carousel-item active">
-                            <!-- Desktop/Tablet Image -->
-                            <img src="img/carousel-1.webp" class="img-fluid w-100 carousel-desktop" alt="Best IT Solutions from PMRG Solution" loading="eager" fetchpriority="high">
-                            <!-- Mobile Image -->
-                            <!-- <img src="img/mobile_carousel1.avif" class="img-fluid w-100 carousel-mobile" alt="Best IT Solutions from PMRG Solution" loading="eager" fetchpriority="high"> -->
+                            <!-- Using <picture> for responsive images -->
+                            <picture>
+                                <!-- Mobile Image Source (for screens up to 767px wide) -->
+                                <source media="(max-width: 767px)" srcset="img/mobile_carousel1.avif" type="image/avif">
+                                <!-- Desktop/Tablet Image (fallback for older browsers, or default for larger screens) -->
+                                <img src="img/carousel-1.webp" class="img-fluid w-100 carousel-desktop" alt="Best IT Solutions from PMRG Solution" loading="eager" fetchpriority="high">
+                            </picture>
                             
                             <div class="carousel-caption">
                                 <div class="container carousel-content">
                                     <h6 class="h4 animated fadeInUp" style="color: #0494D4;">Best IT Solutions</h6>
                                     <h1 class="text-white display-1 mb-4 animated fadeInRight">It's PMRG Solution</h1>
                                     <p class="mb-4 text-white fs-5 animated fadeInDown">Welcome to our premier IT services, where efficiency meets affordability to streamline your business operations.</p>
-                                    <a href="about.html" class="me-2" aria-label="Read more about our IT solutions">
-                                        <button type="button" class="btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read More</button>
+                                    <!-- Corrected: Removed button inside a, applied button classes to the anchor -->
+                                    <a href="about.html" class="px-4 py-sm-3 px-sm-5 my-1 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft me-2" aria-label="Read more about our IT solutions">
+                                        Read More
                                     </a>
-                                    <a href="contact.html" class="ms-2" aria-label="Contact us for IT services">
-                                        <button type="button" class="btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button>
+                                    <!-- Corrected: Removed button inside a, applied button classes to the anchor -->
+                                    <a href="contact.html" class="px-4 py-sm-3 px-sm-5 btn-primary rounded-pill carousel-content-btn2 animated fadeInRight ms-2" aria-label="Contact us for IT services">
+                                        Contact Us
                                     </a>
                                 </div>
                             </div>
                         </div>
-            
+                        
                         <!-- Slide 2 -->
                         <div class="carousel-item">
-                            <!-- Desktop/Tablet Image -->
-                            <img src="img/carousel-2.webp" class="img-fluid w-100 carousel-desktop" alt="Quality Digital Services You Really Need" loading="lazy">
-                            <!-- Mobile Image -->
-                            <!-- <img src="img/mobile_carousel2.webp" class="img-fluid w-100 carousel-mobile" alt="Quality Digital Services You Really Need" loading="lazy"> -->
-            
+                            <!-- Using <picture> for responsive images -->
+                            <picture>
+                                <!-- Mobile Image Source (for screens up to 767px wide) -->
+                                <source media="(max-width: 767px)" srcset="img/mobile_carousel2.webp" type="image/webp">
+                                <!-- Desktop/Tablet Image (fallback for older browsers, or default for larger screens) -->
+                                <img src="img/carousel-2.webp" class="img-fluid w-100 carousel-desktop" alt="Quality Digital Services You Really Need" loading="lazy">
+                            </picture>
+                        
                             <div class="carousel-caption">
                                 <div class="container carousel-content">
                                     <h6 class="h4 animated fadeInUp" style="color: #0494D4;">Best IT Solutions</h6>
                                     <h1 class="text-white display-1 mb-4 animated fadeInLeft">Quality Digital Services You Really Need!</h1>
                                     <p class="mb-4 text-white fs-5 animated fadeInDown">Unlock the Power of Efficient and Cost-Effective IT Services</p>
-                                    <a href="about.html" class="me-2" aria-label="Read more about our digital services">
-                                        <button type="button" class="btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read More</button>
+                                    <!-- Corrected: Removed button inside a, applied button classes to the anchor -->
+                                    <a href="about.html" class="px-4 py-sm-3 px-sm-5 my-1 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft me-2" aria-label="Read more about our digital services">
+                                        Read More
                                     </a>
-                                    <a href="contact.html" class="ms-2" aria-label="Contact us for digital services">
-                                        <button type="button" class="btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button>
+                                    <!-- Corrected: Removed button inside a, applied button classes to the anchor -->
+                                    <a href="contact.html" class="px-4 py-sm-3 px-sm-5 btn-primary rounded-pill carousel-content-btn2 animated fadeInRight ms-2" aria-label="Contact us for digital services">
+                                        Contact Us
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-            
+                    
                     <!-- Controls -->
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev" aria-label="Previous slide">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
