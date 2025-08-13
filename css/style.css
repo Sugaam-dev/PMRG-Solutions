@@ -959,8 +959,9 @@
 
 /* AI section */
 .agentic-ai-section {
-    background: linear-gradient(135deg, #0a1628 0%, #1a2332 50%, #0f1a2e 100%);
-    color: white;
+    /* background: linear-gradient(135deg, #0a1628 0%, #1a2332 50%, #0f1a2e 100%); */
+    background-color: white;
+    color: black;
     padding: 50px 0;
     min-height: 100vh;
     position: relative;
@@ -987,7 +988,7 @@
 
 .section-subtitle {
     font-size: 0.9rem;
-    color: #b8c5d1;
+    color: black;
     margin-bottom: 2rem;
     line-height: 1.6;
 }
@@ -1011,12 +1012,12 @@
 .feature-title {
     font-size: 1rem;
     font-weight: 600;
-    color: #ffffff;
+    color: black;
     margin-bottom: 0.8rem;
 }
 
 .feature-description {
-    color: #b8c5d1;
+    color: black;
     line-height: 1.5;
     font-size: 0.75rem;
 }
@@ -1091,8 +1092,8 @@
 
 /*  MVAFD */
 .fraud-detection-section {
-    background: linear-gradient(135deg, #0a1628 0%, #1a2332 50%, #0f1a2e 100%);
-    color: white;
+    background-color: white;
+    color: black;
     padding: 80px 0;
     min-height: 100vh;
     position: relative;
@@ -1119,7 +1120,7 @@
 
 .section-subtitle {
     font-size: 1rem;
-    color: #b8c5d1;
+    color: black;
     margin-bottom: 3rem;
     line-height: 1.4;
 }
@@ -1153,7 +1154,7 @@
 .feature-content h3 {
     font-size: 1.2rem;
     font-weight: 600;
-    color: #ffffff;
+    color: black;
     margin-bottom: 0.8rem;
 }
 
@@ -1167,7 +1168,7 @@
 .bottom-text {
     margin-top: 3rem;
     font-size: 1rem;
-    color: #b8c5d1;
+    color: black;
     line-height: 1.4;
 }
 
@@ -1275,8 +1276,8 @@
 
 /* DTAP Starts */
 .dtap-section {
-    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-    color: white;
+    background-color: white;
+    color: black;
     padding: 40px 0;
     min-height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -1288,14 +1289,14 @@
     text-align: center;
     margin-bottom: 20px;
     letter-spacing: 1px;
-    color: white;
+    color: black;
 }
 
 .dtap-subtitle {
     font-size: 1rem;
     text-align: center;
     margin-bottom: 30px;
-    color: #e0e0e0;
+    color: #777
     line-height: 1.6;
     max-width: 900px;
     margin-left: auto;
@@ -1335,7 +1336,7 @@
     font-size: 1.1rem;
     text-align: center;
     margin-top: 20px;
-    color: #e0e0e0;
+    color: #555;
     line-height: 1.8;
     max-width: 1000px;
     margin-left: auto;
@@ -1364,8 +1365,8 @@
 /* Agentic Digital Wallet & Payments */
 
 .wallet-section {
-    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-    color: white;
+    background-color: white;
+    color: black;
     padding: 80px 0;
     min-height: 100vh;
     position: relative;
@@ -1403,7 +1404,7 @@
     margin-bottom: 1.5rem;
     letter-spacing: 1px;
     line-height: 1.2;
-    color: white;
+    color: black;
     opacity: 0;
     transform: translateY(30px);
     animation: fadeInUp 0.8s ease forwards;
@@ -1412,7 +1413,7 @@
 .wallet-subtitle {
     font-size: clamp(1rem, 2vw, 1.1rem);
     margin-bottom: 2rem;
-    color: #e0e0e0;
+    color: #777;
     line-height: 1.6;
     opacity: 0;
     transform: translateY(30px);
@@ -1430,7 +1431,7 @@
     font-size: clamp(1.1rem, 2.5vw, 1.3rem);
     font-weight: 600;
     margin-bottom: 1.5rem;
-    color: #ffffff;
+    color: black;
     position: relative;
 }
 
@@ -1452,7 +1453,7 @@
     position: relative;
     font-size: clamp(0.9rem, 1.8vw, 1rem);
     line-height: 1.6;
-    color: #d0d0d0;
+    color: #777;
     background: rgba(255, 255, 255, 0.05);
     border-radius: 8px;
     border-left: 4px solid #4a90e2;
@@ -1489,7 +1490,7 @@
     font-size: clamp(1.1rem, 2.5vw, 1.4rem);
     font-weight: 600;
     margin-bottom: 1rem;
-    color: #ffffff;
+    color: black;
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -1880,7 +1881,7 @@
     display: flex;
     align-items: flex-start;
     padding: 1.5rem;
-    background: rgba(74, 144, 226, 0.05);
+    background: white;
     border-radius: 12px;
     border-left: 4px solid #4a90e2;
     transition: all 0.3s ease;
@@ -2165,8 +2166,8 @@
 
 /* vessel audit starts  */
 .maritime-section {
-    background: linear-gradient(135deg, #0a1628 0%, #1a2332 50%, #0f1a2e 100%);
-    color: white;
+    background-color: white;
+    color: black;
     padding: 60px 0;
     min-height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -2450,12 +2451,12 @@
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 10px;
-    color: #ffffff;
+    color: black;
 }
 
 .feature-description {
     font-size: 0.95rem;
-    color: #d0d0d0;
+    color: black;
     line-height: 1.5;
 }
 
@@ -2492,10 +2493,11 @@
 /* case study summary */
 
 .case-studies-section {
-    background-color: #1a2332;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 60px 0;
     min-height: 100vh;
+    text-align: center;
 }
 
 .case-studies-title {
@@ -2503,7 +2505,7 @@
     font-weight: 400;
     margin-bottom: 1.8rem;
     font-family: Georgia, serif;
-    color: white;
+    color: black;
 }
 
 .case-studies-subtitle {
@@ -2516,9 +2518,9 @@
     background-color: transparent;
     border: 2px solid #4a90e2;
     border-radius: 10px;
-    padding: 2rem;
+    padding: 0.5rem;
     margin-bottom: 1rem;
-    height: 100%;
+    height: 90%;
     transition: transform 0.3s ease;
 }
 
@@ -2563,6 +2565,7 @@
     color: #333;
     padding: 60px 0;
     min-height: 80vh;
+    text-align: center;
 }
 
 .deployment-title {
@@ -2626,10 +2629,11 @@
 /* Testimonial section */
 
 .testimonials-section {
-    background-color: #1a2332;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 60px 0;
     min-height: 100vh;
+    text-align: center;
 }
 
 .testimonials-title {
@@ -2654,12 +2658,13 @@
     line-height: 1.5;
     margin-bottom: 1rem;
     font-style: italic;
+    color: black;
 }
 
 .testimonial-author {
     font-size: 1rem;
     font-weight: 600;
-    color: #ccc;
+    color: black;
     margin-bottom: 0;
 }
 
@@ -2877,8 +2882,8 @@
 } */
 
 .tech-integration-section {
-    background-color: #1a2332;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 50px 0;
     min-height: 100vh;
 }
@@ -2888,7 +2893,7 @@
     font-weight: 400;
     margin-bottom: 2rem;
     font-family: Georgia, serif;
-    color: white;
+    color: black;
     text-align: left;
 }
 
@@ -2922,7 +2927,7 @@
     font-size: clamp(1.2rem, 4vw, 2rem);
     font-weight: 600;
     margin-bottom: 1.3rem;
-    color: white;
+    color: #555;
 }
 
 .integration-subtitle {
