@@ -3425,6 +3425,7 @@
         .cta-button:hover {
             transform: translateY(-2px);
             box-shadow: 0 10px 20px rgba(8, 74, 123, 0.3);
+            color: #fff;
         }
 
         .badge {
