@@ -4460,7 +4460,55 @@ img.rounded-4 {
                 right: 15px;
             }
         }
+
         
+         @media (max-width: 480px) {
+            html[lang="en"] body div.pmrg-hero-section h1.pmrg-main-heading,
+            html body div.pmrg-hero-section h1.pmrg-main-heading,
+            body div.pmrg-hero-section h1.pmrg-main-heading,
+            div.pmrg-hero-section h1.pmrg-main-heading {
+                font-size: 1.5rem !important;
+                line-height: 1.3 !important;
+            }
+
+            html[lang="en"] body div.pmrg-hero-section div.pmrg-enterprise-badge,
+            html body div.pmrg-hero-section div.pmrg-enterprise-badge,
+            body div.pmrg-hero-section div.pmrg-enterprise-badge,
+            div.pmrg-hero-section div.pmrg-enterprise-badge {
+                font-size: 14px !important;
+                padding: 10px 20px !important;
+            }
+
+            html[lang="en"] body div.pmrg-hero-section div.pmrg-hero-container,
+            html body div.pmrg-hero-section div.pmrg-hero-container,
+            body div.pmrg-hero-section div.pmrg-hero-container,
+            div.pmrg-hero-section div.pmrg-hero-container {
+                padding: 0 15px !important;
+            }
+
+            html[lang="en"] body div.pmrg-hero-section h2.pmrg-company-title,
+            html body div.pmrg-hero-section h2.pmrg-company-title,
+            body div.pmrg-hero-section h2.pmrg-company-title,
+            div.pmrg-hero-section h2.pmrg-company-title {
+                font-size: 16px !important;
+            }
+
+            html[lang="en"] body div.pmrg-hero-section h3.pmrg-company-subtitle,
+            html body div.pmrg-hero-section h3.pmrg-company-subtitle,
+            body div.pmrg-hero-section h3.pmrg-company-subtitle,
+            div.pmrg-hero-section h3.pmrg-company-subtitle {
+                font-size: 14px !important;
+            }
+
+            html[lang="en"] body div.pmrg-image-section div.pmrg-image-container img.pmrg-main-image,
+            html body div.pmrg-image-section div.pmrg-image-container img.pmrg-main-image,
+            body div.pmrg-image-section div.pmrg-image-container img.pmrg-main-image,
+            div.pmrg-image-section div.pmrg-image-container img.pmrg-main-image {
+                width: 95% !important;
+            }
+        }
+        
+        /* fiest section ends */
         /* Animation */
         .fade-in-up {
             opacity: 0;

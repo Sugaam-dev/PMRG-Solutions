@@ -112,40 +112,40 @@
                 </div>
             </div>
             <!-- Navbar End -->
-     
-   <section class="crm-section py-5">
-        <div class="container">
-            <div class="content-wrapper">
-                <!-- Header Section -->
-                <div class="section-header fade-in-up">
-                    <div class="accreditation-badge">
-                        Enterprise-Grade CRM Solution
-                    </div>
-                    <div class="training-title">
-                        CoreAxis CRM Integration<br>
-                        by PMRG Solution
-                    </div>
-                    <h1 class="main-heading fade-in-up delay-1">
-                        Unlock <span class="highlight">unified business intelligence</span> with<br>
-                        next-generation CRM technology
-                    </h1>
-                    <p class="description fade-in-up delay-2">
-                        AI-powered CRM platform designed for modern enterprises seeking seamless integration
-                    </p>
-                </div>
-                
-                <!-- Image Section -->
-                <div class="crm-image-section fade-in-up delay-3">
-                    <div class="position-relative">
-                        <!-- CRM Dashboard Image -->
-                        <img src="img/CRM-Sectionn1.jpeg" 
-                             alt="CoreAxis CRM Dashboard" 
-                             class="crm-image">
-                    </div>
-                </div>
+
+    
+     <!-- first section of CRM -->
+   <div class="pmrg-hero-section" style="margin: 0 !important; padding: 20px 0 40px !important; background: #ffffff !important; background-color: #ffffff !important; text-align: center !important; display: block !important; visibility: visible !important; opacity: 1 !important;">
+        <div class="pmrg-hero-container" style="max-width: 1200px !important; margin: 0 auto !important; padding: 0 20px !important; text-align: center !important; display: block !important; visibility: visible !important; opacity: 1 !important;">
+            <div class="pmrg-enterprise-badge" style="background: #3498db !important; background-color: #3498db !important; color: white !important; padding: 12px 30px !important; border-radius: 50px !important; font-size: 16px !important; font-weight: 600 !important; letter-spacing: 1px !important; display: inline-block !important; margin: 0 auto 40px auto !important; box-shadow: 0 8px 25px rgba(52, 152, 219, 0.3) !important; text-align: center !important; visibility: visible !important; opacity: 1 !important;">
+                ENTERPRISE-GRADE CRM SOLUTION
             </div>
+            
+            <h2 class="pmrg-company-title" style="color: #666 !important; font-size: 18px !important; margin: 0 auto 10px auto !important; letter-spacing: 2px !important; text-transform: uppercase !important; text-align: center !important; display: block !important; font-weight: 400 !important; visibility: visible !important; opacity: 1 !important; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;">COREAXIS CRM INTEGRATION</h2>
+            <h3 class="pmrg-company-subtitle" style="color: #777 !important; font-size: 16px !important; margin: 0 auto 40px auto !important; text-align: center !important; display: block !important; font-weight: 400 !important; visibility: visible !important; opacity: 1 !important; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;">BY PMRG SOLUTION</h3>
+            
+            <h1 class="pmrg-main-heading" style="font-size: clamp(1.5rem, 8vw, 3rem) !important; color: #2c3e50 !important; margin: 0 auto 30px auto !important; line-height: 1.2 !important; text-align: center !important; display: block !important; font-weight: 700 !important; visibility: visible !important; opacity: 1 !important; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;">
+                Unlock <span class="pmrg-heading-highlight" style="color: #3498db !important; display: inline !important; font-weight: 700 !important; visibility: visible !important; opacity: 1 !important;">unified business intelligence</span> with<br>
+                next-generation CRM technology
+            </h1>
+            
+            <p class="pmrg-hero-description" style="font-size: 1.25rem !important; color: #666 !important; margin: 0 auto 50px auto !important; max-width: 800px !important; text-align: center !important; display: block !important; font-weight: 400 !important; visibility: visible !important; opacity: 1 !important; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;">
+                AI-powered CRM platform designed for modern enterprises seeking seamless integration
+            </p>
         </div>
-    </section>
+    </div>
+
+    <!-- Image Section -->
+    <div class="pmrg-image-section" style="padding: 0px 0 !important; text-align: center !important; background: #ffffff !important; background-color: #ffffff !important; display: block !important; visibility: visible !important; opacity: 1 !important;">
+        <div class="pmrg-image-container" style="max-width: 1200px !important; margin: 0 auto !important; padding: 0 20px !important; text-align: center !important; display: block !important; visibility: visible !important; opacity: 1 !important;">
+            <img src="img/CRM-Sectionn1.jpeg" 
+                 alt="CRM Dashboard Analytics" 
+                 class="pmrg-main-image"
+                 style="width: 80% !important; max-width: 800px !important; height: auto !important; border-radius: 15px !important; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1) !important; display: block !important; margin: 0 auto !important; visibility: visible !important; opacity: 1 !important;">
+        </div>
+    </div>
+
+
     <!-- second section starts -->
    <section class="achievements-section">
     <div class="achievements-container">
@@ -553,24 +553,33 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
     <script>
-     // Intersection Observer for animations
+      // Simple scroll animations
         const observerOptions = {
             threshold: 0.1,
             rootMargin: '0px 0px -50px 0px'
         };
-        
+
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    entry.target.style.animationPlayState = 'running';
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
                 }
             });
         }, observerOptions);
-        
-        document.querySelectorAll('.fade-in-up').forEach(el => {
-            el.style.animationPlayState = 'paused';
-            observer.observe(el);
+
+        // Observe image for animation
+        document.addEventListener('DOMContentLoaded', () => {
+            const imageElement = document.querySelector('.pmrg-main-image');
+            if (imageElement) {
+                imageElement.style.opacity = '0';
+                imageElement.style.transform = 'translateY(50px)';
+                imageElement.style.transition = 'all 0.8s ease';
+                observer.observe(imageElement);
+            }
         });
+
+        
     </script>
 </body>
 </html>
