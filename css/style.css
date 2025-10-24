@@ -3621,7 +3621,7 @@
     font-weight: 700;
     color: #2c3e50;
     margin-bottom: 10px;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #084A7B, #764ba2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -3649,7 +3649,7 @@
     padding: 15px;
     background: linear-gradient(135deg, rgba(102, 126, 234, 0.08), rgba(118, 75, 162, 0.08));
     border-radius: 10px;
-    border-left: 4px solid #667eea;
+    border-left: 4px solid #084A7B;
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
@@ -3661,7 +3661,7 @@
     display: inline-block;
     width: 24px;
     height: 24px;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #084A7B, #764ba2);
     color: white;
     border-radius: 50%;
     text-align: center;
@@ -3949,7 +3949,7 @@ img {
 }
 
 .card-title {
-  color: #007bff;
+  color: #084A7B;
   font-weight: 600;
   margin-bottom: 10px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -4004,7 +4004,7 @@ img.rounded-4 {
         .main-integration-heading {
             font-size: 3.5rem;
             font-weight: 300;
-            color: #333333;
+            color: #084A7B;
             text-align: center;
             margin-bottom: 60px;
             letter-spacing: -1px;
@@ -4118,7 +4118,7 @@ img.rounded-4 {
         .main-success-story-title {
             font-size: 4rem;
             font-weight: 300;
-            color: #1f2937;
+            color: #084A7B;
             margin-bottom: 30px;
             letter-spacing: -1px;
             line-height: 1.1;
@@ -4866,3 +4866,675 @@ img.rounded-4 {
   border-radius: 15px;
 }
 }
+
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  color: #333;
+  line-height: 1.6;
+  background-color: #f9fafc;
+}
+
+h1, h2, h3 {
+  color: #082d55;
+}
+
+section {
+  padding: 80px 2%;
+  text-align: center;
+}
+
+/* Section 1: Hero */
+.fn-hero-section {
+  /* background: linear-gradient(135deg, #002855, #0066cc); */
+  color: ffffff;
+  padding: 50px 3%;
+}
+.fn-hero-content h1 {
+  font-size: 3.2rem;
+  margin-bottom: 10px;
+}
+.fn-hero-content h2 {
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.fn-hero-button {
+  background: #ffcc00;
+  color: #000;
+  padding: 12px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.fn-hero-button:hover {
+  background: #ffc400;
+}
+
+/* section */
+/* --- Base Colors (Simplified) --- */
+body {
+    background-color: #ffffff; /* White background */
+    color: #333333; /* Dark gray text */
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5; /* Adjusted line height for smaller font */
+}
+
+/* Primary color for highlights (Teal) */
+.fno-primary-color {
+    color: #084A7B; /* A slightly darker teal for better contrast */
+}
+
+/* --- Section Container --- */
+.fno-section {
+    padding: 3rem 1rem; /* Decreased vertical padding */
+}
+
+.fno-container {
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* --- Header and Branding (Centered) --- */
+.fno-header {
+    margin-bottom: 2rem; /* Decreased margin */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text inside children */
+}
+
+.fno-title-group {
+    margin-bottom: 0.5rem; /* Reduced margin */
+}
+
+.fno-title {
+    font-size: 2rem; /* Decreased font size (was 3rem) */
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.fno-brand {
+    /* Aligned left by flex-column, centered by align-items: center in parent */
+}
+
+.fno-brand-main {
+    font-size: 1rem; /* Decreased font size (was 1.25rem) */
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.fno-brand-tagline {
+    color: #666666; /* Medium gray */
+    font-size: 0.75rem; /* Decreased font size (was 0.875rem) */
+    font-style: italic;
+}
+
+/* --- Introduction Text (Centered) --- */
+.fno-intro {
+    margin-bottom: 3rem; /* Decreased margin */
+    max-width: 700px;
+    margin-left: auto; /* Center the block */
+    margin-right: auto; /* Center the block */
+    text-align: center;
+}
+
+.fno-intro p {
+    font-size: 1rem; /* Decreased font size (was 1.125rem) */
+    color: #555555; /* Slightly lighter text */
+}
+
+/* --- Feature Grid --- */
+.fno-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem; /* Decreased gap */
+}
+
+/* Responsive grid layout */
+@media (min-width: 768px) {
+    .fno-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* --- Feature Card --- */
+.fno-card {
+    padding: 1.5rem; /* Decreased padding (was 2.5rem) */
+    background-color: #f9f9f9; /* Light off-white background for cards */
+    border-radius: 0.5rem; /* Rounded corners */
+    border-top: 3px solid #084A7B ; /* Teal primary color */
+    border: 1px solid #e0e0e0; /* Very light gray border */
+    
+    /* Shadow and Transition for Hover Effect */
+    transition: all 0.2s ease-out; /* Faster, simpler transition */
+    transform: translateY(0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.fno-card:hover {
+    transform: translateY(-3px); /* Smaller lift on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    border-color: #084A7B;
+}
+
+.fno-icon {
+    margin-bottom: 0.75rem; /* Reduced margin */
+    color: #084A7B; /* Primary color */
+}
+
+.fno-card-title {
+    font-size: 1.25rem; /* Decreased font size (was 1.5rem) */
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 0.5rem;
+}
+
+.fno-card-text {
+    font-size: 0.9rem; /* Decreased font size (was 1rem) */
+    color: #555555;
+}
+
+/* --- Conclusion/Quote --- */
+.fno-conclusion {
+    margin-top: 3rem;
+    padding-top: 1.5rem; /* Reduced padding */
+    border-top: 1px solid #e0e0e0;
+    text-align: center;
+}
+
+.fno-conclusion p {
+    font-size: 1rem; /* Decreased font size (was 1.25rem) */
+    font-style: italic;
+    font-weight: 300;
+    color: #333333;
+    /* max-width: 600px; */
+    margin: 0 auto;
+}
+
+/* Section 2: Challenge */
+/* ===== Modern Agile Challenge Section ===== */
+.fn-agile-challenge-section {
+  background-color: #ffffff;
+  padding: 80px 5%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.fn-challenge-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.fn-challenge-text {
+  flex: 1 1 55%;
+}
+
+.fn-challenge-title {
+  color: #084A7B;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.fn-challenge-intro {
+  color: #333;
+  font-size: 1rem;
+  margin-bottom: 30px;
+  line-height: 1.7;
+}
+
+.fn-challenge-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.fn-challenge-item {
+  background: #f2f4f8;
+  border-radius: 8px;
+  padding: 18px 20px;
+  text-align: left;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: 0.3s ease;
+}
+.fn-challenge-item:hover {
+  background: #eaf2ff;
+  transform: translateY(-3px);
+}
+.fn-challenge-item h3 {
+  margin: 0 0 8px 0;
+  font-size: 1rem;
+  color: #084A7B;
+}
+.fn-challenge-item p {
+  margin: 0;
+  color: #555;
+  font-size: 0.75rem;
+  line-height: 1.6;
+}
+
+.fn-challenge-summary {
+  margin-top: 25px;
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.7;
+  font-style: italic;
+}
+
+.fn-challenge-image {
+  flex: 1 1 40%;
+  text-align: center;
+}
+.fn-challenge-image img {
+  width: 100%;
+  max-width: 480px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 992px) {
+  .fn-challenge-container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .fn-challenge-text {
+    text-align: left;
+    width: 100%;
+  }
+  .fn-challenge-image img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .fn-challenge-title {
+    font-size: 1.6rem;
+  }
+  .fn-agile-challenge-section {
+    padding: 60px 6%;
+  }
+  .fn-challenge-item {
+    padding: 15px;
+  }
+}
+
+
+/* Section 3: Capabilities */
+.fn-capabilities-section {
+  background: #eef3fa;
+}
+.fn-capability-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+.fn-capability-card {
+  background: #fff;
+  border-left: 6px solid #084A7B;
+  border-radius: 10px;
+  padding: 25px;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  font-size: 0.9rem;
+}
+.fn-capability-card ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+/* Section 4: Impact */
+.fn-impact-section {
+  background: #ffffff;
+}
+.fn-impact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+.fn-impact-card {
+  background: #f4f8fd;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+  font-size: 0.9rem;
+}
+
+/* Section 5: Collaboration */
+.fn-collaboration-section {
+  background: #f4f8fb;
+}
+.fn-collaboration-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+.fn-collab-card {
+  background: #fff;
+  border-left: 6px solid #0494D4;
+  border-radius: 10px;
+  padding: 25px;
+  text-align: left;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.07);
+  font-size: 0.9rem;
+}
+.fn-contact {
+  margin-top: 50px;
+}
+.fn-contact-button {
+  background: #0072ce;
+  color: #fff;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.fn-contact-button:hover {
+  background: #005fa3;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .fn-hero-content h1 {
+    font-size: 2.4rem;
+  }
+  section {
+    padding: 60px 6%;
+  }
+}
+
+/* section */
+/* Primary Color Definition - Unused but kept for consistency with other elements */
+.fno-primary-text {
+    color: #008080; /* Teal/Turquoise */
+}
+
+/* --- Section Layout --- */
+.fno-arch-section {
+    padding: 3rem 1rem;
+}
+
+.fno-arch-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* --- Header and Branding --- */
+.fno-arch-header {
+    margin-bottom: 2.5rem;
+    /* Removed flex properties as there is only one element left, simplifying the centering */
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 1.5rem;
+}
+
+/* Block for Title and Subtitle - Used to center the content */
+.fno-header-text-block {
+    width: 100%;
+    text-align: center; /* Centers the text content */
+    margin: 0 auto; /* Ensures the block itself is centered (though it is 100% width) */
+}
+
+/* Responsive adjustment for header - mostly redundant now but kept clean */
+@media (min-width: 768px) {
+    .fno-arch-header {
+        /* No need for flex adjustments here */
+    }
+    
+    .fno-header-text-block {
+        /* Ensures the title/subtitle content stays centered and readable on desktop */
+        max-width: 800px;
+        margin: 0 auto; 
+    }
+}
+
+.fno-arch-title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #1a1a1a;
+    margin: 0 0 0.5rem 0;
+}
+
+.fno-arch-subtitle {
+    font-size: 0.95rem; /* Small font size */
+    color: #555555;
+    margin: 0 auto; /* Centers the subtitle text block */
+    max-width: 650px; /* Constrain width of subtitle for readability */
+}
+
+/* REMOVED: .fno-brand-logo, .fno-brand-main-text, .fno-brand-tagline-text styles */
+
+
+/* --- Architecture Steps List (Core Content) --- */
+.fno-steps-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+}
+
+.fno-step-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 1.5rem 0;
+    border-left: 3px solid #e0e0e0; /* Vertical separator line */
+    position: relative;
+    padding-left: 2rem; /* Space for the number marker */
+}
+
+/* Style for the step number marker */
+.fno-step-number {
+    position: absolute;
+    left: -16px; /* Position it over the border line */
+    top: 1.5rem;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #0072ce; /* Teal/Primary color */
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 800;
+    box-shadow: 0 0 0 4px #f7f7f7; /* White ring to separate from the line */
+}
+
+.fno-step-item:last-child {
+    border-left: none; /* Removed the vertical line for the last element, cleaner look */
+    border-bottom: 3px solid #e0e0e0;
+    padding-bottom: 1.5rem;
+}
+
+.fno-step-content {
+    flex-grow: 1;
+}
+
+.fno-step-title {
+    font-size: 1.15rem; /* Small font size */
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0 0 0.4rem 0;
+}
+
+.fno-step-description {
+    font-size: 0.9rem; /* Small font size */
+    color: #555555;
+    margin: 0;
+}
+
+/* Remove border for the first step to avoid a line starting at the top */
+.fno-steps-list .fno-step-item:first-child {
+    border-top: none;
+    padding-top: 0;
+}
+
+
+/* --- Compliance Footer/Callout --- */
+.fno-compliance-box {
+    background-color: #e6f0f0; /* Light teal background */
+    border: 1px solid #0494D4;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.fno-compliance-icon {
+    color: #0494D4;
+    min-width: 24px; /* Fix size for consistency */
+    margin-top: 2px;
+}
+
+.fno-compliance-text {
+    font-size: 0.85rem; /* Very small font size */
+    color: #333333;
+    margin: 0;
+}
+
+/* ====== FlowNetOps Competitive Edge Section ====== */
+.fn-competitive-edge-section {
+  padding: 80px 10%;
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: #0a2540;
+}
+
+.fn-edge-header {
+  max-width: 900px;
+  margin: 0 auto 60px;
+}
+
+.fn-edge-title {
+  font-size: 2rem;
+  color: #2441a5;
+  margin-bottom: 10px;
+}
+
+.fn-edge-subtitle {
+  font-size: 1.3rem;
+  color: #2a3fa8;
+  margin-bottom: 15px;
+}
+
+.fn-edge-description {
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* Content Layout */
+.fn-edge-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+/* Left and Right Columns */
+.fn-edge-left, .fn-edge-right {
+  flex: 1 1 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+}
+
+/* Cards */
+.fn-edge-card {
+  background-color: #f4f7fc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: 0.3s ease;
+}
+.fn-edge-card:hover {
+  background-color: #e9f2ff;
+  transform: translateY(-4px);
+}
+.fn-edge-card h4 {
+  margin-bottom: 10px;
+  font-size: 1.05rem;
+  color: #0a2540;
+}
+.fn-edge-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Center Image */
+.fn-edge-image {
+  flex: 0 1 300px;
+  text-align: center;
+}
+.fn-edge-image img {
+  width: 100%;
+  max-width: 280px;
+  border-radius: 50%;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+/* Footer Text */
+.fn-edge-footer {
+  max-width: 900px;
+  margin: 0 auto;
+  color: #1d2a4d;
+  font-size: 1rem;
+  line-height: 1.8;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+/* ====== Responsive Design ====== */
+@media (max-width: 992px) {
+  .fn-edge-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .fn-edge-left, .fn-edge-right {
+    align-items: center;
+  }
+
+  .fn-edge-image img {
+    max-width: 220px;
+  }
+}
+
+@media (max-width: 600px) {
+  .fn-competitive-edge-section {
+    padding: 60px 6%;
+  }
+
+  .fn-edge-title {
+    font-size: 1.7rem;
+  }
+
+  .fn-edge-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .fn-edge-card {
+    padding: 15px;
+  }
+
+  .fn-edge-image img {
+    max-width: 180px;
+  }
+}
+
