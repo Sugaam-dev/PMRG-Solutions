@@ -79,6 +79,9 @@
     |-- grunilogo.webp
     |-- logo-PMRG.jpeg
     |-- logo-PMRG2.png
+    |-- metaicon.png
+    |-- mobilecarousell.jpg
+    |-- mobilecarousell.webp
     |-- mobile_carousel1.avif
     |-- mobile_carousel2.webp
     |-- mobile_img.webp
