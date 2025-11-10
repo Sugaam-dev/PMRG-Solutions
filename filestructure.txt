@@ -1,0 +1,262 @@
+|-- 404.html
+|-- about.html
+|-- admin2.jpg
+|-- admin3.jpg
+|-- api
+    |-- openai.js
+|-- blog.html
+|-- chatbot.png
+|-- contact.html
+|-- CRM.html
+|-- css
+    |-- bootstrap.min.css
+    |-- chat.css
+    |-- style.css
+|-- ERP_New.html
+|-- img
+    |-- about-1.jpg
+    |-- about-1.webp
+    |-- about-2.jpg
+    |-- about-2.webp
+    |-- admin.jpg
+    |-- admin2.jpg
+    |-- admin3.jpg
+    |-- advait-tiwari.png
+    |-- advait-tiwari.webp
+    |-- agile-Challenge.png
+    |-- AI_Img.webp
+    |-- AI_Img2.jpeg
+    |-- amd-logo.png
+    |-- background.jpg
+    |-- bhadrayu-panda.jpg
+    |-- bhadrayu-panda.webp
+    |-- blog-1.jpg
+    |-- blog-1.webp
+    |-- blog-2.jpg
+    |-- blog-2.webp
+    |-- blog-3.jpg
+    |-- blog-3.webp
+    |-- carousel-1.jpg
+    |-- carousel-1.webp
+    |-- carousel-2.jpg
+    |-- carousel-2.webp
+    |-- Catch-Up_Logo.png
+    |-- catchuplogo.png
+    |-- catchuplogo.webp
+    |-- chatbot.png
+    |-- chatbot.webp
+    |-- competitive-edge.png
+    |-- CRM-Card1.jpg
+    |-- CRM-Card2.jpg
+    |-- CRM-Card3.jpg
+    |-- CRM-Section0.jpg
+    |-- CRM-Section1.jpg
+    |-- CRM-Section2.jpg
+    |-- CRM-Section3..jpg
+    |-- CRM-Section4.jpg
+    |-- CRM-Sectionn1.jpeg
+    |-- CRM-Service-Card.jpg
+    |-- CRM-Stories.png
+    |-- CRM1.jpg
+    |-- CRM2.jpg
+    |-- ERP-Card1.jpg
+    |-- ERP-Card2.webp
+    |-- ERP-Card3.jpg
+    |-- ERP-Card4.jpg
+    |-- ERP-Card5.jpg
+    |-- ERP-Section0.jpg
+    |-- ERP-Section1.png
+    |-- ERP-Section2.jpg
+    |-- ERP-Section3.jpg
+    |-- ERP-Section4.jpg
+    |-- ERP-Section5.webp
+    |-- ERP-Section6.jpg
+    |-- ERP-Section7.webp
+    |-- ERP-Sectionn0.jpeg
+    |-- ERP-Service-Card.png
+    |-- ERP-Stories.jpeg
+    |-- grunilogo (1).webp
+    |-- grunilogo.webp
+    |-- logo-PMRG.jpeg
+    |-- logo-PMRG2.png
+    |-- mobile_carousel1.avif
+    |-- mobile_carousel2.webp
+    |-- mobile_img.webp
+    |-- MTC-logo.png
+    |-- MTC-logo.webp
+    |-- MtcLogo.png
+    |-- MtcLogo.webp
+    |-- mvafd_img.jpeg
+    |-- o4orange-logo.png
+    |-- photo_rohit_new.png
+    |-- photo_rohit_new.webp
+    |-- PMRG logo.png
+    |-- ppt-img1.webp
+    |-- ppt1.png
+    |-- pramir-nayak (2).png
+    |-- pramir-nayak (2).webp
+    |-- pratima-mishra.png
+    |-- pratima-mishra.webp
+    |-- project-1.jpg
+    |-- project-1.webp
+    |-- project-2.jpg
+    |-- project-2.webp
+    |-- project-3.jpg
+    |-- project-3.webp
+    |-- project-4.jpg
+    |-- project-4.webp
+    |-- project-5.jpg
+    |-- project-5.webp
+    |-- project-6.jpg
+    |-- project-6.webp
+    |-- rekha-ghosh.png
+    |-- rekha-ghosh.webp
+    |-- schoolBuddy.jpeg
+    |-- schoolBuddy.webp
+    |-- seema-shaik.png
+    |-- Shilpa_A.png
+    |-- Shilpa_A.webp
+    |-- sonal-kamble.png
+    |-- sonal-kamble.webp
+    |-- testimonial-1.jpg
+    |-- testimonial-2.jpg
+    |-- testimonial-3.jpg
+    |-- testimonial-4.jpg
+    |-- vessel_img.jpeg
+    |-- vyakrute-logo.png
+    |-- vyaku.jpeg
+    |-- vyaku2.jpeg
+    |-- yoga.webp
+    |-- yogala.jpg
+    |-- yogalaya-logo.webp
+|-- index.html
+|-- it-solutions-website-template.jpg
+|-- js
+    |-- chat.js
+    |-- main.js
+|-- lib
+    |-- animate
+        |-- animate.css
+        |-- animate.min.css
+    |-- easing
+        |-- easing.js
+        |-- easing.min.js
+    |-- owlcarousel
+        |-- assets
+            |-- ajax-loader.gif
+            |-- owl.carousel.css
+            |-- owl.carousel.min.css
+            |-- owl.theme.default.css
+            |-- owl.theme.default.min.css
+            |-- owl.theme.green.css
+            |-- owl.theme.green.min.css
+            |-- owl.video.play.png
+        |-- LICENSE
+        |-- owl.carousel.js
+        |-- owl.carousel.min.js
+    |-- waypoints
+        |-- links.php
+        |-- waypoints.min.js
+    |-- wow
+        |-- wow.js
+        |-- wow.min.js
+|-- LICENSE.txt
+|-- package-lock.json
+|-- package.json
+|-- PMRG logo.png
+|-- project.html
+|-- READ-ME.txt
+|-- README.md
+|-- scss
+    |-- bootstrap
+        |-- scss
+            |-- bootstrap-grid.scss
+            |-- bootstrap-reboot.scss
+            |-- bootstrap-utilities.scss
+            |-- bootstrap.scss
+            |-- forms
+                |-- _floating-labels.scss
+                |-- _form-check.scss
+                |-- _form-control.scss
+                |-- _form-range.scss
+                |-- _form-select.scss
+                |-- _form-text.scss
+                |-- _input-group.scss
+                |-- _labels.scss
+                |-- _validation.scss
+            |-- helpers
+                |-- _clearfix.scss
+                |-- _colored-links.scss
+                |-- _position.scss
+                |-- _ratio.scss
+                |-- _stretched-link.scss
+                |-- _text-truncation.scss
+                |-- _visually-hidden.scss
+            |-- mixins
+                |-- _alert.scss
+                |-- _border-radius.scss
+                |-- _box-shadow.scss
+                |-- _breakpoints.scss
+                |-- _buttons.scss
+                |-- _caret.scss
+                |-- _clearfix.scss
+                |-- _color-scheme.scss
+                |-- _container.scss
+                |-- _deprecate.scss
+                |-- _forms.scss
+                |-- _gradients.scss
+                |-- _grid.scss
+                |-- _image.scss
+                |-- _list-group.scss
+                |-- _lists.scss
+                |-- _pagination.scss
+                |-- _reset-text.scss
+                |-- _resize.scss
+                |-- _table-variants.scss
+                |-- _text-truncate.scss
+                |-- _transition.scss
+                |-- _utilities.scss
+                |-- _visually-hidden.scss
+            |-- utilities
+                |-- _api.scss
+            |-- vendor
+                |-- _rfs.scss
+            |-- _accordion.scss
+            |-- _alert.scss
+            |-- _badge.scss
+            |-- _breadcrumb.scss
+            |-- _button-group.scss
+            |-- _buttons.scss
+            |-- _card.scss
+            |-- _carousel.scss
+            |-- _close.scss
+            |-- _containers.scss
+            |-- _dropdown.scss
+            |-- _forms.scss
+            |-- _functions.scss
+            |-- _grid.scss
+            |-- _helpers.scss
+            |-- _images.scss
+            |-- _list-group.scss
+            |-- _mixins.scss
+            |-- _modal.scss
+            |-- _nav.scss
+            |-- _navbar.scss
+            |-- _offcanvas.scss
+            |-- _pagination.scss
+            |-- _popover.scss
+            |-- _progress.scss
+            |-- _reboot.scss
+            |-- _root.scss
+            |-- _spinners.scss
+            |-- _tables.scss
+            |-- _toasts.scss
+            |-- _tooltip.scss
+            |-- _transitions.scss
+            |-- _type.scss
+            |-- _utilities.scss
+            |-- _variables.scss
+    |-- bootstrap.scss
+|-- service.html
+|-- team.html
+|-- testimonial.html
