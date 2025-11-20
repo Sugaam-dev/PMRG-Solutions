@@ -107,3 +107,77 @@
 
 })(jQuery);
 
+document.addEventListener('DOMContentLoaded', function () {
+    // Case Studies Read More button
+    const caseStudiesBtn = document.getElementById('readMoreBtn');
+    const caseStudiesSection = document.querySelector('.case-studies-section');
+    if (caseStudiesBtn && caseStudiesSection) {
+        caseStudiesBtn.addEventListener('click', function () {
+            caseStudiesSection.classList.toggle('expanded');
+            if (caseStudiesSection.classList.contains('expanded')) {
+                this.textContent = "Show Less";
+            } else {
+                this.textContent = "Read More";
+                const firstCard = document.querySelector('#caseStudiesRow > .case-study-wrapper:nth-child(1)');
+                if (firstCard) {
+                    firstCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            }
+        });
+    }
+
+    // Deployment Models Read More button
+    const deploymentBtn = document.getElementById('deploymentReadMoreBtn');
+    const deploymentSection = document.querySelector('.deployment-models-section');
+    if (deploymentBtn && deploymentSection) {
+        deploymentBtn.addEventListener('click', function () {
+            deploymentSection.classList.toggle('expanded');
+            if (deploymentSection.classList.contains('expanded')) {
+                this.textContent = "Show Less";
+            } else {
+                this.textContent = "Read More";
+                const firstCard = document.querySelector('#deploymentModelsGrid > .col-lg-4:nth-child(1)');
+                if (firstCard) {
+                    firstCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            }
+        });
+    }
+
+    // Testimonials Read More button
+    const testimonialBtn = document.getElementById('testimonialReadMoreBtn');
+    const testimonialsSection = document.querySelector('.testimonials-section');
+    if (testimonialBtn && testimonialsSection) {
+        testimonialBtn.addEventListener('click', function () {
+            testimonialsSection.classList.toggle('expanded');
+            if (testimonialsSection.classList.contains('expanded')) {
+                this.textContent = "Show Less";
+            } else {
+                this.textContent = "Read More";
+                const firstTestimonial = document.querySelector('#testimonialsGrid .testimonial-row:nth-child(1)');
+                if (firstTestimonial) {
+                    firstTestimonial.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            }
+        });
+    }
+
+    // Blog Read More button
+    const blogBtn = document.getElementById('blogReadMoreBtn');
+    const blogSection = document.querySelector('.blog-section');
+    const blogRow = document.getElementById('blogRow');
+    if (blogBtn && blogSection && blogRow) {
+        blogBtn.addEventListener('click', function () {
+            blogSection.classList.toggle('expanded');
+            if (blogSection.classList.contains('expanded')) {
+                this.textContent = "Show Less";
+            } else {
+                this.textContent = "Read More";
+                const firstBlogItem = blogRow.querySelector('div:first-child');
+                if (firstBlogItem) {
+                    firstBlogItem.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            }
+        });
+    }
+});
